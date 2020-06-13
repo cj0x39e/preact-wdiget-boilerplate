@@ -1,6 +1,6 @@
 module.exports = {
     plugins: {
-        'autoprefixer': {},   
+        autoprefixer: {},
         // 可配置项，参考 https://github.com/evrone/postcss-px-to-viewport
         'postcss-px-to-viewport': {
             unitToConvert: 'px',
@@ -13,7 +13,7 @@ module.exports = {
             minPixelValue: 1,
             mediaQuery: false,
             replace: true,
-            exclude: [/pc/ig], /** 忽略 名字中包含 pc 的文件 */
+            exclude: [/pc/gi] /** 忽略 名字中包含 pc 的文件 */,
             landscape: false,
             landscapeUnit: 'vw',
             landscapeWidth: 568

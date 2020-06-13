@@ -2,10 +2,10 @@ const presets = [
     [
         '@babel/preset-env',
         {
-          "useBuiltIns": "entry",
-          "corejs": 3
+            useBuiltIns: 'entry',
+            corejs: 3
         }
-    ],
+    ]
 ];
 
 const plugins = [
@@ -13,14 +13,13 @@ const plugins = [
     [
         '@babel/plugin-transform-react-jsx',
         {
-            "pragma": "h",
-            "pragmaFrag": "Fragment",
+            pragma: 'h',
+            pragmaFrag: 'Fragment'
         }
-
     ]
-]
+];
 
-module.exports = { 
+module.exports = {
     presets,
     plugins
 };
