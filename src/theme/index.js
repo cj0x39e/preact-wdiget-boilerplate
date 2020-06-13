@@ -5,4 +5,4 @@
  */
 
 import './default-pc.scss'
-import './default-mobile.scss?mobile'
+import './default-mobile.scss'

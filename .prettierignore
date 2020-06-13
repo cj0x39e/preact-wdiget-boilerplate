@@ -11,9 +11,12 @@ package-lock.json
 *.md
 *.svg
 *.png
+*.jpg
+*.jpeg
+*.gif
 *ignore
 
 
 ## Built-files
 .cache
-dist
+example/lib
