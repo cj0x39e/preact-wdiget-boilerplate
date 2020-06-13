@@ -1,6 +1,11 @@
+const packageInfo = require('./package.json');
+
 module.exports = {
     plugins: {
         autoprefixer: {},
+        'postcss-banner': {
+            banner: `${packageInfo.name}@${packageInfo.version} author:${packageInfo.author}`
+        },
         // 可配置项，参考 https://github.com/evrone/postcss-px-to-viewport
         'postcss-px-to-viewport': {
             unitToConvert: 'px',
