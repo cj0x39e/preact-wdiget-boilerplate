@@ -11,7 +11,7 @@ export default function Hello(props) {
     return (
         <div className="hello">
             <div className="logo" />
-            <p className="title">恭喜你，使用 tl 初始化仓库成功!</p>
+            <p className="title">恭喜你，使用 tl 初始化项目成功!</p>
             <p className="text">{props.text}</p>
         </div>
     );
