@@ -19,7 +19,9 @@ module.exports = {
     },
     settings: {
         react: {
-            pragma: 'h'
+			pragma: 'h',
+            // 参考 eslint-config-preact https://github.com/preactjs/eslint-config-preact/blob/6687c4931b3df7d52cdf6fca98a20d2093eb81de/index.js#L55
+			version: '16.0'
         }
     }
 };
